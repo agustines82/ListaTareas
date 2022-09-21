@@ -1,9 +1,9 @@
 import React from "react";
 import { ListGroup, Button } from "react-bootstrap";
-const ItemTarea = () => {
+const ItemTarea = ({ nombreTarea }) => {
     return (
         <ListGroup.Item className="lead bg-light rounded d-flex justify-content-between ">
-            Buscar a Nacho del cole
+            {nombreTarea}
             <Button variant="danger">Borrar</Button>
         </ListGroup.Item>
     );

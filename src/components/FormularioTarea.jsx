@@ -38,7 +38,7 @@ const FormularioTarea = () => {
             </Form>
             <section className="w-75 container">
                 <article className="p-1">
-                    <ListaTareas />
+                    <ListaTareas arregloTareas={arregloTareas} />
                 </article>
             </section>
         </section>
