@@ -15,6 +15,13 @@ const FormularioTarea = () => {
         setTarea("");
     };
 
+    const borrarTarea = (nombre) => {
+        // hacer un arreglo nuevo sin la tarea a borrar
+        let arregloTareas2 = arregloTareas.filter((item) => item !== nombre);
+        //actualizo el state
+        setArregloTareas(arregloTareas2);
+    };
+
     return (
         <section>
             <div className="container w-75 bg-light border rounded-top">
@@ -38,7 +45,7 @@ const FormularioTarea = () => {
             </Form>
             <section className="w-75 container">
                 <article className="p-1">
-                    <ListaTareas arregloTareas={arregloTareas} />
+                    <ListaTareas arregloTareas={arregloTareas} borrarTarea={borrarTarea} />
                 </article>
             </section>
         </section>
