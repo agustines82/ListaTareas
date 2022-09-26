@@ -4,11 +4,25 @@
 
 Prácticas con componentes, ciclo de vida del componente, eventos etc.
 
+## Demo del proyecto
+
+probá un demo de la lista de tareas:
+[Demo]()
+
 ## GitHub
 
-[Git](https://github.com/agustines82/ListaTareas) :smiley_cat:
+descargá el codigo del proyecto:
+[Git](https://github.com/agustines82/ListaTareas)
 
-## autor
+## Pasos para probar el proyecto
+
+una vez clonado el repositorio de github ejecuta los siguientes comandos:
+
+`npm install`
+
+`npm start`
+
+## Autor
 
 -   Agustin Sampayo
 
