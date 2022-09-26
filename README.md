@@ -7,7 +7,7 @@ Prácticas con componentes, ciclo de vida del componente, eventos etc.
 ## Demo del proyecto
 
 probá un demo de la lista de tareas:
-[Demo]()
+[Demo](https://super-jalebi-7e69c4.netlify.app)
 
 ## GitHub
 
